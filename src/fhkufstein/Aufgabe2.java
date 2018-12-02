@@ -7,6 +7,18 @@ import static com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResol
 public class Aufgabe2 {
     public static void main(String[] args) {
         partialString(JOptionPane.showInputDialog("Gib deinen Namen ein"));
+
+        //Aufrufen der Klasse Taschenrechner
+
+        System.out.println(Taschenrechner.Addieren(10,5));
+        System.out.println(Taschenrechner.Subtrahieen(10,5));
+        System.out.println(Taschenrechner.Multiplizieren(10, 5));
+        System.out.println(Taschenrechner.Dividieren(10, 5));
+
+        System.out.println(Taschenrechner.Addieren(10, 2.5));
+        System.out.println(Taschenrechner.Subtrahieen(10, 2.5));
+        System.out.println(Taschenrechner.Multiplizieren(10, 2.5));
+        System.out.println(Taschenrechner.Dividieren(10, 5));
     }
 
 
