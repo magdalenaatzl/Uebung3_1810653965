@@ -25,7 +25,7 @@ public class Aufgabe4 {
         //iterativ: Schleifen bilden
 
 
-        //funktioniert so nicht:
+        //funktioniert so leider ganz und gar nicht:
         if (n == 0) {
             return 0;
         }
@@ -38,9 +38,6 @@ public class Aufgabe4 {
             ergebnis = (n-2)+(n-1);
         }
         return ergebnis;
-
-
-
 
 
         /*
