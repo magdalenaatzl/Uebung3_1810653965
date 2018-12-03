@@ -2,25 +2,28 @@ package fhkufstein;
 
 import javax.swing.*;
 
-public class Vehicle {
-    private int power; //in kW
-    private double weight; //in kg
+public class Vehicle
+{
+    private int power;
+    private double weight;
     private String name;
 
-
-    public static void calculatePower(int power) {
-        JOptionPane.showMessageDialog(null, +power + " kW (das sind " + power * 1.36 + " PS)");
+    //Konstruktor
+    public Vehicle(int power, double weight, String name)
+    {
+        this.power = power;
+        this.weight =weight;
+        this.name=name;
     }
-
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
 
     public String getName() {
         return name;
     }
+
+    public void calculatePower() {
+        JOptionPane.showMessageDialog(null, +power + " kW (das sind " + power * 1.36 + " PS)");
+    }
+
 }
 
 
