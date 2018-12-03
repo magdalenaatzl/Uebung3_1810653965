@@ -7,14 +7,15 @@ public class Aufruf {
         Vehicle auto1 = new Vehicle();
         Vehicle auto2 = new Vehicle();
 
-        auto1.name = "Porsche";
-        auto2.name = "Ferrari";
+        auto1.setName("Porsche");
+        auto2.setName("Ferrari");
 
-        JOptionPane.showMessageDialog(null, "ein "+auto1.name+" hat...");
-        Vehicle.calculatePower(50);
-        JOptionPane.showMessageDialog(null, "ein "+auto2.name+" hat...");
-        Vehicle.calculatePower(40);
 
+        JOptionPane.showMessageDialog(null, "ein "+auto1.getName()+" hat...");
+        Vehicle.calculatePower(440);
+
+        JOptionPane.showMessageDialog(null, "ein "+auto2.getName()+" hat...");
+        Vehicle.calculatePower(220);
 
     }
 }

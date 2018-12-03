@@ -1,9 +1,7 @@
 package fhkufstein;
 
 public class Taschenrechner {
-    /*Überladen der Methoden
-    * erstelle Methoden mit den gleichen Methodennamen mit verschiedenen Datentypen
-    */
+
     public static int Addieren (int a, int b){
         return a+b;
     }
@@ -19,9 +17,7 @@ public class Taschenrechner {
     public static double Addieren (double a, double b){
         return a+b;
     }
-    public static double Subtrahieen (double a, double b){
-        return a-b;
-    }
+    public static double Subtrahieren (double a, double b){return a-b;    }
     public static double Multiplizieren (double a, double b){
         return a*b;
     }
